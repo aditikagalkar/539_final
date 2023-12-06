@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+    padding: 0px 50px 50px 50px;
+}
+header {
+    display: inline;
+    float: right;
+    margin: 10px;
+    padding-right: 10px;
+}
+main{
+    display: inline-block;
+    margin: 10px;
+}
+li{
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 15px;
+}
+li a{
+    text-decoration: none;
+    color: darkslategrey;
+}
+h1 {
+    font-family: 'Lora', 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    overflow: hidden;
+    white-space: nowrap; 
+    margin: 0 50px 50px 0; 
+    animation: typing 7s steps(30, end)
+}
+@keyframes typing { 
+    from { 
+        width: 0
+    } 
+    to { 
+        width: 100%
+    } 
+}
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.griditem {
+    width: 500px;
+    justify-content: center;
+    margin: 10px;
+    padding: 30px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro&display=swap");
+body {
+    font-family: "Poppins", sans-serif;
+    padding: 0px 50px 50px 50px;
+}
+header {
+    display: inline;
+    float: right;
+    margin: 10px;
+    padding-right: 10px;
+}
+main {
+    display: inline-block;
+    margin: 10px;
+}
+li {
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 15px;
+}
+li a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+h2,
+h3, .project-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+.project-img img{
+    width: 600px;
+}
+.logistic {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.step2, .step3, .step4{
+    margin: 30px 0 3px 0;
+}
+.persona{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px;
+}
+.persona-img img{
+    width: 300px;
+    margin-right: 30px;
+}
+.step3 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+.wireframes {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.wireframes img {
+    width: 500px;
+}
+.step5 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+
+}
+.step6 img, .step7 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
